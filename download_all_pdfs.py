@@ -11,8 +11,8 @@ import subprocess
 from urllib.parse import unquote
 from bs4 import BeautifulSoup
 
-national_page = "http://ocpo.treasury.gov.za/COVID19/Pages/Reporting-Provincial-Government.aspx"
-provincial_page = "http://ocpo.treasury.gov.za/COVID19/Pages/Reporting-National-Departments.aspx"
+provincial_page = "http://ocpo.treasury.gov.za/COVID19/Pages/Reporting-Provincial-Government.aspx"
+national_page = "http://ocpo.treasury.gov.za/COVID19/Pages/Reporting-National-Departments.aspx"
 base_url = "http://ocpo.treasury.gov.za"
 
 def get_links(url):
